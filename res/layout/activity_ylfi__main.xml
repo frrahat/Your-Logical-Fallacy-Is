@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyline"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.frrahat.yourlogicalfallacyis.YLFI_MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageViewHero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hero" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewHero"
+        android:layout_centerHorizontal="true"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+        	<Button
+	            android:id="@+id/buttonGo"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:text="Logical Fallacies"
+	            android:background="@drawable/header_small"
+	            android:textColor="@android:color/holo_orange_light"
+	            android:gravity="center" />
+            <TextView
+        		android:id="@+id/textView1"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:text="@string/text_logical_fallacy"
+        		android:textAppearance="?android:attr/textAppearanceMedium"
+        		android:gravity="center" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

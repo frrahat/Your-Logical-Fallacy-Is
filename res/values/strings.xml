@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Your Logical Fallacy Is</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_fallacy">Your Logical Fallacy Is</string>
+    <string name="title_activity_fallacy_list">Fallacies</string>
+    <string name="text_logical_fallacy">A logical fallacy is a flaw in reasoning. Strong arguments are void of logical fallacies, whilst arguments that are weak tend to use logical fallacies to appear stronger than they are. They\'re like tricks or illusions of thought, and they\'re often very sneakily used by politicians, the media, and others to fool people. Don\’t be fooled!</string>
+
+</resources>
